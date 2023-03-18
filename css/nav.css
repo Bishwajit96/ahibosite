@@ -1,0 +1,33 @@
+@font-face{
+    font-family: navfont;
+    src: url(../font/Sono-Regular.ttf);
+}
+nav{
+    background-color: rgb(63, 148, 155);
+}
+.navbar-brand
+{
+    position: relative;
+    background: url(../image/general_img/logo.jpg);
+    width: 5vw;
+    height: 10vh;
+    border-radius: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav .collapse.navbar-collapse ul li a{
+    color: white;
+    font-family: navfont;
+    font-style: oblique;
+    font-size: larger;
+}
+
+nav .collapse.navbar-collapse ul li a:hover{
+    color: rgb(220, 171, 171);
+    font-size: large;
+}
+
+nav .collapse.navbar-collapse ul li .dropdown-menu{
+    background-color: rebeccapurple;
+}

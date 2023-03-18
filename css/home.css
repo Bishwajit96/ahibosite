@@ -1,0 +1,14 @@
+.carousel.slide .carousel-inner .carousel-item img{
+    height: 80vh;
+}
+.food h5{
+    text-align: center;
+    font-size: 25px;
+}
+.food .row .col-sm-4 img{
+    width: 100%;
+    height: 100%;
+}
+.food .row .col-sm-8 p{
+    text-align: justify;
+}
