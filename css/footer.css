@@ -4,19 +4,14 @@
     font-family: contentFont;
   }
   
-  .importantLinks ul{
-    list-style: none;
-  }
-  .importantLinks li a{
+  .importantLinks a{
+    margin-right: 10px;
     position: relative;
+    cursor: pointer;
+    text-decoration: none;
     display: inline-block;
     color: inherit;
     transition: all 300ms ease;
-  }
-  
-  .importantLinks a{
-    cursor: pointer;
-    text-decoration: none;
   }
   .importantLinks a:hover{
     color: #ff2600;

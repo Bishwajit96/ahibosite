@@ -28,6 +28,11 @@ nav .collapse.navbar-collapse ul li a:hover{
     font-size: large;
 }
 
+nav .collapse.navbar-collapse ul li a.active{
+    color: rgb(220, 171, 171);
+    font-size: large;
+}
+
 nav .collapse.navbar-collapse ul li .dropdown-menu{
     background-color: rebeccapurple;
 }

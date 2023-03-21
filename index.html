@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="./css/nav.css" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/home.css" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/footer.css">
@@ -23,22 +24,22 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About Us</a>
+            <a class="nav-link" href="about.html">About Us</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Services
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#wwd">What we deliver</a></li>
-              <li><a class="dropdown-item" href="#hww">How we works</a></li>
+              <li><a class="dropdown-item" href="wwd.html">What we deliver</a></li>
+              <li><a class="dropdown-item" href="hww.html">How we works</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="contact.html">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -83,225 +84,176 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <div data-bs-spy="scroll" data-bs-target="#navbar-ahibo" data-bs-root-margin="0px 0px -40%"
-    data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
-    <div class="container">
-      <h4 id="about" style="text-align: center;">About Us</h4>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum</p>
-    </div>
-    <div class="container-md">
-      <h4 style="text-align: center;">What We Deliver</h4>
-      <div class="row">
-        <div class="col-md-6 food">
-          <h5>Food</h5>
-          <div class="row">
-            <div class="col-sm-4">
-              <img src="./image/home/food.jpg" alt="" srcset="">
-            </div>
-            <div class="col-sm-8">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's
-                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
-                to make
-              </p>
-            </div>
+  <div class="container">
+    <h4 id="about" style="text-align: center; margin-top: 10px;">Deliver goods at yor place</h4>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+      a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+      remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+      Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+      of Lorem Ipsum</p>
+  </div>
+  <div class="container-md" style="margin-bottom: 10px;">
+    <h4 style="text-align: center;">What We Deliver</h4>
+    <img class="img-fluid dash" src="./image/general_img/dash.png" alt="" srcset="">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 food wow animate__animated animate__backInDown">
+        <a href="wwd.html#food">
+          <img class="img-fluid" src="./image/home/food.jpg" alt="food" srcset="">
+          <div class="text-block">
+            <h4>Food </h4>
+            <p>Sub title</p>
           </div>
-        </div>
-        <div class="col-md-6 food">
-          <h5>Medicine</h5>
-          <div class="row">
-            <div class="col-sm-4">
-              <img src="./image/home/food.jpg" alt="" srcset="">
-            </div>
-            <div class="col-sm-8">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's
-                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
-                to make
-              </p>
-            </div>
-          </div>
-        </div>
-        <br />
-        <div class="col-md-6 food">
-          <h5>Parcel</h5>
-          <div class="row">
-            <div class="col-sm-4">
-              <img src="./image/home/food.jpg" alt="" srcset="">
-            </div>
-            <div class="col-sm-8">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's
-                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
-                to make
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 food">
-          <h5>Groceries</h5>
-          <div class="row">
-            <div class="col-sm-4">
-              <img src="./image/home/food.jpg" alt="" srcset="">
-            </div>
-            <div class="col-sm-8">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's
-                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
-                to make
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+        </a>
 
-    <div class="container-md">
-      <h4 style="text-align: center;">How We Works</h4>
-      <h6>We connect delivery person who can pick up and drop any order to the people. We followed the following steps
-      </h6>
-      <div class="row" style="margin-bottom: 10px;">
-        <div class="col-md-5">
-          <img class="img-fluid" src="./image/home/stephww1.jpg" alt="" srcset="">
-        </div>
-        <!-- <div class="col-md-1 vl"></div> -->
-        <div class="col-md-7">
-          <h6>Step 1</h6>
-          <h5>Place an order</h5>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's
-            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-            make</p>
-        </div>
       </div>
-      <div class="row" style="margin-bottom: 10px;">
-        <div class="col-md-5">
-          <img class="img-fluid" src="./image/home/stephww1.jpg" alt="" srcset="">
-        </div>
-        <!-- <div class="col-md-1 vl"></div> -->
-        <div class="col-md-7">
-          <h6>Step 2</h6>
-          <h5>Assign delivery person</h5>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's
-            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-            make</p>
-        </div>
+      <div class="col-md-3 col-sm-6 food wow animate__animated animate__backInUp animate__delay-1s">
+        <a href="wwd.html#medicine">
+          <img class="img-fluid" src="./image/home/food.jpg" alt="food" srcset="">
+          <div class="text-block">
+            <h4>Medicine</h4>
+            <p>sub title</p>
+          </div>
+        </a>
+
       </div>
-      <div class="row" style="margin-bottom: 10px;">
-        <div class="col-md-5">
-          <img class="img-fluid" src="./image/home/stephww1.jpg" alt="" srcset="">
-        </div>
-        <!-- <div class="col-md-1 vl"></div> -->
-        <div class="col-md-7">
-          <h6>Step 3</h6>
-          <h5>Pick Up orders</h5>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's
-            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-            make</p>
-        </div>
+      <div class="col-md-3 col-sm-6 food wow animate__animated animate__backInDown animate__delay-2s">
+        <a href="wwd.html#parcel">
+          <img class="img-fluid" src="./image/home/food.jpg" alt="food" srcset="">
+          <div class="text-block">
+            <h4>Parcel</h4>
+            <p>sub title</p>
+          </div>
+        </a>
       </div>
-      <div class="row" style="margin-bottom: 10px;">
-        <div class="col-md-5">
-          <img class="img-fluid" src="./image/home/stephww1.jpg" alt="" srcset="">
-        </div>
-        <!-- <div class="col-md-1 vl"></div> -->
-        <div class="col-md-7">
-          <h6>Step 4</h6>
-          <h5>Deliver the parcel</h5>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's
-            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-            make</p>
-        </div>
+      <div class="col-md-3 col-sm-6 food wow animate__animated animate__backInUp animate__delay-3s">
+        <a href="wwd.html#groceries">
+          <img class="img-fluid" src="./image/home/food.jpg" alt="food" srcset="">
+          <div class="text-block">
+            <h4>Groceries</h4>
+            <p>sub title</p>
+          </div>
+        </a>
       </div>
     </div>
-    <div class="container-md" style="margin-top: 20px;">
-      <div class="row">
-        <h4 style="text-align: center;">Contact Us</h4>
-        <div class="col-md-6" style="margin: left 10px;">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6">
-                <div>
-                  <h4>Postal Address</h4>
-                  <p>Ahibo LLP,<br /> Shanti Complex, Jain Temple Rd,<br /> West Yard Colony, Marwari Patti,<br />
-                    Dimapur, Nagaland 797112</p>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div>
-                  <h4>Contact Details</h4>
-                  <p>+91-8837062880</p>
-                </div>
-                <div>
-                  <h4>Email</h4>
-                  <p>ahibo@ahibo.in</p>
-                </div>
-              </div>
-            </div>
-          </div>
+  </div>
 
+  <div class="container-md" style="margin-bottom: 10px;">
+    <h4 style="text-align: center;">Area of Delivery</h4>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+      a type specimen book.</p>
+  </div>
+  <div class="container-fluid testimonial faq">
+    <h4 style="text-align: center;">FAQ</h4>
+    <img class="img-fluid dash" src="./image/general_img/dash.png" alt="" srcset="">
+    <div class="accordion accordion-flush container" id="accordionFAQ">
+      <div class="accordion-item">
+        <h1 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Question #1
+          </button>
+        </h1>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+          data-bs-parent="#accordionFAQ">
+          <div class="accordion-body">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+            also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
         </div>
-        <div class="col-md-6">
-          <iframe width="100%" height="300" style="border:0" loading="lazy" allowfullscreen
-            referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDsKN-IVsr-2lgxLRAcfulKXTtsyucrdlA
-  &q=Shanti Complex, Jain Temple Rd, West Yard Colony, Marwari Patti, Dimapur, Nagaland 797112
-  &zoom=20
-  &maptype=satellite">
-          </iframe>
+      </div>
+      <div class="accordion-item">
+        <h1 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Question #2
+          </button>
+        </h1>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+          data-bs-parent="#accordionFAQ">
+          <div class="accordion-body">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+            also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h1 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Question #3
+          </button>
+        </h1>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFAQ">
+          <div class="accordion-body">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+            also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
         </div>
       </div>
     </div>
   </div>
+  <div class="container-fluid download-app">
+    <h3>Place Order from your phone</h3>
+    <h4>Download Ahibo APP</h4>
+    <a href="#"> <img src="./image/general_img/playstore.svg" alt="" srcset=""></a>
+    <a href="#"><img src="./image/general_img/appstore.svg" alt="" srcset=""></a>
+  </div>
+  </div>
   <div class="container-fluid footer">
     <div class="container">
-        <div class="row">
-            <div class="col-md-3" style="margin-bottom: 30px; margin-top: 20px;">
-                <img class="img-fluid" src="./image/general_img/logo.jpg" alt="logo-02">
-            </div>
-            <div class="col-md-3 contact" style="margin-left: 10%; margin-bottom: 30px; margin-top: 20px;">
-                <h4>Contact Us</h4>
-                <hr />
-                <p>Ahibo LLP <br />Shanti Complex, Jain Temple Rd<br />West Yard Colony, Marwari Patti,
-                    <br />Dimapur, Nagaland 797112
-                </p>
-                <p>Mobile No. : +91-8837062880 <br /> Email : ahibo@ahibo.in</p>
+      <div class="row">
+        <div class="col-md-3" style="margin-bottom: 30px; margin-top: 20px;">
+          <img class="img-fluid" src="./image/general_img/logo.jpg" alt="logo-02">
+        </div>
+        <div class="col-md-3 contact" style="margin-left: 10%; margin-bottom: 30px; margin-top: 20px;">
+          <h4>Contact Us</h4>
+          <hr />
+          <p>Ahibo LLP <br />Shanti Complex, Jain Temple Rd<br />West Yard Colony, Marwari Patti,
+            <br />Dimapur, Nagaland 797112
+          </p>
+          <p>Mobile No. : +91-8837062880 <br /> Email : ahibo@ahibo.in</p>
 
-            </div>
-            <div class="col-md-3 importantLinks" style="margin-bottom: 30px; margin-top: 20px; margin-left: 10%;">
-                <h4>Social Media</h4>
-                <hr />
-                <!-- <ul>
-                    <li><a href="https://www.eurokidsindia.com/" target="_blank">Eurokids India</a></li>
-                    <li><a href="https://www.eurokidsindia.com/" target="_blank">Eurokids India</a></li>
-                    <li><a href="https://www.eurokidsindia.com/" target="_blank">Eurokids India</a></li>
-                </ul> -->
-            </div>
         </div>
-        <div class="row foot_dev">
-            <div class="col-12">
-                <hr style="width: 100%;">
-            </div>
-            <div class="col-sm-6">
-                Copyright &#169; 2023 by Ahibo LLP, Dimapur
-            </div>
-            <div class="col-sm-6 dev">
-                Developed & Maintain by Tridib Sarma
-            </div>
+        <div class="col-md-3 importantLinks" style="margin-bottom: 30px; margin-top: 20px; margin-left: 10%;">
+          <h4>Social Media</h4>
+          <hr />
+          <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook fa-lg"></i></a>
+          <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram fa-lg"></i></a>
+          <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter fa-lg"></i></a>
+          <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-lg"></i></a>
         </div>
+      </div>
+      <div class="row foot_dev">
+        <div class="col-12">
+          <hr style="width: 100%;">
+        </div>
+        <div class="col-sm-6">
+          Copyright &#169; 2023 by Ahibo LLP, Dimapur
+        </div>
+        <div class="col-sm-6 dev">
+          Developed & Maintain by Tridib Sarma
+        </div>
+      </div>
 
     </div>
-</div>
+  </div>
+  <script src="https://kit.fontawesome.com/7faf1de368.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
+  <script>
+    new WOW().init();
+  </script>
 </body>
 
 </html>
