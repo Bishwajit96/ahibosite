@@ -1,0 +1,83 @@
+@font-face{
+    font-family: navfont;
+    src: url(../font/Sono-Regular.ttf);
+  }
+/* Navbar Section */
+
+nav {
+    background-color: rgb(63, 148, 155);
+}
+
+.navbar-brand {
+    position: relative;
+    background: url(../images/home/logo.jpg);
+    width: 5%;
+    height: 10vh;
+    border-radius: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav .collapse.navbar-collapse ul li a {
+    color: white;
+    font-family: navfont;
+    font-style: oblique;
+    font-size: larger;
+}
+
+nav .collapse.navbar-collapse ul li a:hover {
+    color: rgb(220, 171, 171);
+    font-size: large;
+}
+
+nav .collapse.navbar-collapse ul li a.active {
+    color: rgb(220, 171, 171);
+    font-size: large;
+}
+
+/*** Footer ***/
+.footer{
+    background-color: rgb(0, 85, 255);
+  }
+  .footer .btn.btn-link {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: var(--light);
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+  }
+  
+  .footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: var(--light);
+    margin-right: 10px;
+  }
+  
+  .footer .btn.btn-link:hover {
+    color: var(--primary);
+    letter-spacing: 1px;
+    box-shadow: none;
+  }
+  
+  /*** Copyright ***/
+  .copyright {
+    background: #092139;
+  }
+  
+  .copyright a {
+    text-decoration: none;
+    color: var(--primary);
+  }
+  
+  .copyright a:hover {
+    color: var(--light);
+  }
+  
