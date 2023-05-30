@@ -1,0 +1,146 @@
+  /**Header Section**/
+  .hero {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .hero img,.ceo img{
+    height: 300px;
+  }
+
+  .hero h2 {
+    position: absolute;
+    margin-left: 10px;
+    color: white;
+    font-weight: 700;
+    bottom: 0px;
+    left: 0px;
+    right: 0
+  }
+
+  /**Head content Section**/
+  .reimagine div div div h3 {
+    text-justify: newspaper;
+  }
+
+  .reimagine div div div p {
+    text-align: justify;
+  }
+
+  /**Collaps Accordation**/
+  .accordion {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+
+  .accordion-toggle {
+    background-color: #f5f5f5;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+  }
+
+  .accordion-toggle::before {
+    content: '\2212';
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+  }
+
+  .accordion-toggle.collapsed::before {
+    content: '\002B';
+    transform: translateY(-50%) rotate(-90deg);
+  }
+
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: max-height .3s ease;
+  }
+
+  .accordion-content.show {
+    max-height: 500px;
+    /* Adjust this value to match the maximum height of your content */
+    transition: max-height .5s ease;
+  }
+
+  /**Ceo**/
+  .ceo {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    margin-top: var(--bs-gutter-y);
+    position: relative;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+  }
+
+  .text {
+    text-align: justify;
+    position: absolute;
+    margin-left: 10px;
+    top: 30%;
+    z-index: 1;
+  }
+
+  @media screen and (max-width: 768px) {
+    .text {
+      top: 25%;
+    }
+  }
+
+  .button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+
+  .image {
+    display: block;
+  }
+
+  .imagecontent {
+    margin-top: 2%;
+  }
+
+  .imagecontent .row .col-md-6 .image {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imagecontent .row .col-md-6 .image img {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .text-content {
+    text-align: justify;
+  }
+
+  .text-info p{
+    text-align: justify;
+    color: black;
+  }
+
+  .company-info{
+    margin-bottom: 60px;
+  }
