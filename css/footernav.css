@@ -4,8 +4,15 @@
   }
 /* Navbar Section */
 
-nav {
-    background-color: rgb(63, 148, 155);
+@media screen and (max-width: 991px) {
+  nav {
+    background-color:#64B6AC ;
+  }
+}
+@media screen and (min-width: 992px) {
+  nav {
+    background: linear-gradient(to right, #FFFFFF, #64B6AC);
+  }
 }
 
 .navbar-brand {
