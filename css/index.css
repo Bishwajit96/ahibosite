@@ -1,7 +1,8 @@
 .image-row {
   display: flex;
   height: 200px;
-  margin-top: 20px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 .image-container {
