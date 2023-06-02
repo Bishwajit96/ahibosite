@@ -18,12 +18,18 @@
 .navbar-brand {
     position: relative;
     background: url(../images/home/logo.jpg);
-    width: 5%;
-    height: 10vh;
+    width: 50px;
+    height: 50px;
     border-radius: 5%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+@media screen and (max-width: 991px){
+  .navbar-brand {
+    margin-left: 10px;
+  }
+  
 }
 
 nav .collapse.navbar-collapse ul li a {
