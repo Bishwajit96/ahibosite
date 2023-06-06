@@ -13,7 +13,8 @@
 }
 
 .image-container:hover {
-  width: 100%;
+  height: 210px;
+  width: 210px;
 }
 
 .image-container img {
