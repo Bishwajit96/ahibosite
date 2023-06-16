@@ -44,6 +44,8 @@
     cursor: pointer;
     padding: 10px;
     position: relative;
+    font-size: large;
+    font-weight: 600;
   }
 
   .accordion-toggle::before {
@@ -141,6 +143,8 @@
     color: black;
   }
 
-  .company-info{
+  .lastSection{
+    padding-top: 5px;
     margin-bottom: 60px;
+    background-color: rgba(168, 167, 167, 0.2);
   }

@@ -51,7 +51,7 @@ nav .collapse.navbar-collapse ul li a.active {
 
 /*** Footer ***/
 .footer{
-    background-color: rgb(0, 85, 255);
+    background-color: green;
   }
   .footer .btn.btn-link {
     text-decoration: none;
@@ -82,7 +82,7 @@ nav .collapse.navbar-collapse ul li a.active {
   
   /*** Copyright ***/
   .copyright {
-    background: #092139;
+    background: #093604;
   }
   
   .copyright a {
