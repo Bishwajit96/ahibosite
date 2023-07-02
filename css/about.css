@@ -9,7 +9,8 @@
     width: 100%;
   }
 
-  .hero img,.ceo img{
+  .hero img,
+  .ceo img {
     height: 300px;
   }
 
@@ -78,6 +79,47 @@
     transition: max-height .5s ease;
   }
 
+  /*Founders*/
+  .profile {
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  .profile img {
+    transition: transform 0.3s;
+    height: 300px;
+  }
+
+  /* .profile:hover img {
+    transform: scale(1.1);
+  } */
+
+  .profile h5 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .profile p {
+    font-size: 0.9rem;
+    color: #888;
+  }
+
+  .social-icons {
+    margin-top: 20px;
+  }
+
+  .social-icons a {
+    color: #333;
+    font-size: 1.2rem;
+    margin-right: 8px;
+    transition: color 0.3s;
+  }
+
+  .social-icons a:hover {
+    color: #000;
+  }
+
   /**Ceo**/
   .ceo {
     flex-shrink: 0;
@@ -138,12 +180,12 @@
     text-align: justify;
   }
 
-  .text-info p{
+  .text-info p {
     text-align: justify;
     color: black;
   }
 
-  .lastSection{
+  .lastSection {
     padding-top: 5px;
     margin-bottom: 60px;
     background-color: rgba(168, 167, 167, 0.2);
