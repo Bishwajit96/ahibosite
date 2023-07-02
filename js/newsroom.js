@@ -6,53 +6,21 @@ function getNotification(notificatioCategoryId){
     $("#v-pills-home").empty();
 
     if(notificatioCategoryId==null){
-        $("#v-pills-home").append(`<p><img src="images/gif-new.gif" alt="New" srcset=""><a href="#" target="_blank" rel="noopener noreferrer" > Data Is publish1</a><span> 26/11/2021</span></p>`)
-        $("#v-pills-home").append(`<p><img src="images/gif-new.gif" alt="New" srcset=""><a href="#" target="_blank" rel="noopener noreferrer" > Data Is publish2</a><span> 26/11/2021</span></p>`) 
-        $("#v-pills-home").append(`<p><img src="images/gif-new.gif" alt="New" srcset=""><a href="#" target="_blank" rel="noopener noreferrer" > Data Is publish3</a><span> 26/11/2021</span></p>`) 
-        $("#v-pills-home").append(`<p><img src="images/gif-new.gif" alt="New" srcset=""><a href="#" target="_blank" rel="noopener noreferrer" > Data Is publish4</a><span> 26/11/2021</span></p>`) 
-        $("#v-pills-home").append(`<p><img src="images/gif-new.gif" alt="New" srcset=""><a href="#" target="_blank" rel="noopener noreferrer" > Data Is publish5</a><span> 26/11/2021</span></p>`)  
+        $("#v-pills-home").append(`<p><img src="images/gif-new.gif" alt="New" srcset=""><a href="https://easternmirrornagaland.com/right-time-for-people-of-nagaland-to-invest-says-agriculture-production-commissioner/" target="_blank" rel="noopener noreferrer" > Right time for people of Nagaland to invest says agriculture production commissioner</a><span> -02/07/2023</span></p>`)  
+        $("#v-pills-home").append(`<p><img src="images/gif-new.gif" alt="New" srcset=""><a href="https://easternmirrornagaland.com/ahibo-promises-to-deliver-mobility-solution-in-dimapur/" target="_blank" rel="noopener noreferrer" > 'AHIBO' Promises to deliver mobility solution in Dimapur </a><span> -02/07/2023</span></p>`)
+        $("#v-pills-home").append(`<p><a href="https://morungexpress.com/startup-nagaland-winners-recognized" target="_blank" rel="noopener noreferrer" > Startup Nagaland winners recognized </a><span> -14/10/2022</span></p>`)
+        $("#v-pills-home").append(`<p><a href="https://nagalandpost.com/index.php/state-sets-aside-rs-65-cr-under-cm-microfinance-initiative/" target="_blank" rel="noopener noreferrer" > Nagaland State sets aside Rs. 65 cr under CM microfinance initiative</a><span> -21/08/20221</span></p>`) 
+        $("#v-pills-home").append(`<p><a href="https://morungexpress.com/dmc-issues-permits-home-delivery-services-dimapur" target="_blank" rel="noopener noreferrer" > DMC issues permits for home delivery services in Dimapur</a><span> -03/04/2020</span></p>`)  
     }
     if(notificatioCategoryId==1){
-        $("#v-pills-home").append(`<p><img src="images/gif-new.gif" alt="New" srcset=""><a href="#" target="_blank" rel="noopener noreferrer" > Product Launch-1</a><span> 26/11/2021</span></p>`)
-        $("#v-pills-home").append(`<p><img src="images/gif-new.gif" alt="New" srcset=""><a href="#" target="_blank" rel="noopener noreferrer" > Product Launch-1</a><span> 26/11/2021</span></p>`) 
-        $("#v-pills-home").append(`<p><img src="images/gif-new.gif" alt="New" srcset=""><a href="#" target="_blank" rel="noopener noreferrer" > Product Launch-1</a><span> 26/11/2021</span></p>`) 
-        $("#v-pills-home").append(`<p><img src="images/gif-new.gif" alt="New" srcset=""><a href="#" target="_blank" rel="noopener noreferrer" > Product Launch-1</a><span> 26/11/2021</span></p>`) 
     }
-    // var formData={
-    //     'action': "getnotificationforuser", 
-    //     'notification_cat_id':notificatioCategoryId,
-    //     'is_scrollnotification':null,
-    //     'is_active':1
-    // }
-    // $.ajax({
-    //     type: "POST",
-    //     url: "./api/notificationprocess.php",
-    //     data: formData,
-    //     dataType: 'json',
-    //     success: function (data) {
-    //         $("#v-pills-home").empty();
-    //         var index=0;
-
-    //         if(data.length>0){
-    //             if(index<5){
-    //                 $.each(data, function (key, value) {
-                    
-    //                     $("#v-pills-home").append(`<p><img src="./img/home/gif-new.gif" alt="New" srcset=""><a href="${value.filePath}" target="_blank" rel="noopener noreferrer" >${value.notificationHeading}</a><span> ${value.dateOfNotification}</span></p>`) 
-    //                 });
-    //             }else{
-    //                 $.each(data, function (key, value) {
-                    
-    //                     $("#v-pills-home").append(`<p><img src="./img/home/gif-new.gif" alt="New" srcset=""><a href="${value.filePath}" target="_blank" rel="noopener noreferrer" >${value.notificationHeading}</a><span> ${value.dateOfNotification}</span></p>`) 
-    //                 });
-    //             }
-                
-    //         }
-    //         index++;
-    //     },
-    //     error: function (data) {
-            
-    //     }
-    // })
+    if(notificatioCategoryId==2){
+        $("#v-pills-home").append(`<p><img src="images/gif-new.gif" alt="New" srcset=""><a href="https://easternmirrornagaland.com/right-time-for-people-of-nagaland-to-invest-says-agriculture-production-commissioner/" target="_blank" rel="noopener noreferrer" > Right time for people of Nagaland to invest says agriculture production commissioner</a><span> -02/07/2023</span></p>`)  
+        $("#v-pills-home").append(`<p><img src="images/gif-new.gif" alt="New" srcset=""><a href="https://easternmirrornagaland.com/ahibo-promises-to-deliver-mobility-solution-in-dimapur/" target="_blank" rel="noopener noreferrer" > 'AHIBO' Promises to deliver mobility solution in Dimapur </a><span> -02/07/2023</span></p>`)
+        $("#v-pills-home").append(`<p><a href="https://morungexpress.com/startup-nagaland-winners-recognized" target="_blank" rel="noopener noreferrer" > Startup Nagaland winners recognized </a><span> -14/10/2022</span></p>`)
+        $("#v-pills-home").append(`<p><a href="https://nagalandpost.com/index.php/state-sets-aside-rs-65-cr-under-cm-microfinance-initiative/" target="_blank" rel="noopener noreferrer" > Nagaland State sets aside Rs. 65 cr under CM microfinance initiative</a><span> -21/08/20221</span></p>`) 
+        $("#v-pills-home").append(`<p><a href="https://morungexpress.com/dmc-issues-permits-home-delivery-services-dimapur" target="_blank" rel="noopener noreferrer" > DMC issues permits for home delivery services in Dimapur</a><span> -03/04/2020</span></p>`)  
+    }
 }
 
 $(document).ready(async function () {
