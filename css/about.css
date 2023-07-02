@@ -86,6 +86,7 @@
   }
 
   .profile img {
+    border-radius: 50%;
     transition: transform 0.3s;
     height: 300px;
   }
