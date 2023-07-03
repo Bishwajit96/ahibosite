@@ -82,7 +82,7 @@
   /*Founders*/
   .profile {
     text-align: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
 
   .profile img {
@@ -119,6 +119,12 @@
 
   .social-icons a:hover {
     color: #000;
+  }
+
+  @media screen and (min-width: 768px) {
+    .second-profile{
+      margin-left: 30% ;
+    }
   }
 
   /**Ceo**/
